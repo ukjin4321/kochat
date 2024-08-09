@@ -10,7 +10,11 @@ import re
 import numpy as np
 import pandas as pd
 import six
+
+import matplotlib
+matplotlib.use('Agg')
 from matplotlib import pyplot as plt
+
 from pandas import DataFrame
 from sklearn.decomposition import IncrementalPCA
 from torch import Tensor

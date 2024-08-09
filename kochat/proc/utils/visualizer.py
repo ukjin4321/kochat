@@ -10,8 +10,7 @@ import re
 import six
 import matplotlib
 matplotlib.use('Agg')
-from matplotlib import pyplot as plt
-
+from matplotlib import (pyplot as plt)
 import numpy as np
 import pandas as pd
 from pandas import DataFrame
